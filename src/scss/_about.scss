@@ -18,6 +18,7 @@
     width: 55%;
     min-width: 550px;
     line-height: 2.3rem;
+    padding-bottom: 30px;
   }
 }
 
@@ -31,9 +32,9 @@
 #Harry {
   height: 165px;
   width: 111.44px;
-  float: right;
-  padding-left: 15px;
-  padding-right: 400px;
+  float: left;
+  padding-right: 15px;
+  overflow: auto;
 }
 
 #Bowie {
@@ -44,5 +45,4 @@
 }
 #dis {
   font-size: 1rem;
-  margin-top: 50px;
 }
