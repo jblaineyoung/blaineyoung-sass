@@ -1,0 +1,44 @@
+// A .scss for the about page
+  //I copied this from the _content.scss and deleted irrelevent styles. I did this because I wanted my three pictures to have their own sizes.
+.about {
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: $primary-color;
+
+  > * {
+    padding-left: 30px;
+  }
+
+  h3 {
+    margin-top: 3rem;
+  }
+  p {
+    font-size: 2rem;
+    width: 55%;
+    min-width: 550px;
+    line-height: 2.3rem;
+  }
+}
+
+#Hozier {
+  height: 165px;
+  width: 150px;
+  float: left;
+  padding-right: 15px;
+}
+
+#Harry {
+  height: 165px;
+  width: 111.44px;
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#Bowie {
+  height: 165px;
+  width: 141.3px;
+  float: left;
+  padding-right: 15px;
+}

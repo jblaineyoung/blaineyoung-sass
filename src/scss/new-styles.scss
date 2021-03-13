@@ -1,0 +1,9 @@
+$primary-color: #97d5fe;
+$secondary-color: #ffffff;
+
+@import 'reset';
+@import 'base';
+@import 'content';
+@import 'nav';
+//importing a new .scss for the about page (see it for details)
+@import 'about';
